@@ -1,0 +1,96 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:45e108f3-60b7-5bd0-8a4c-4db165238714",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:01:25Z",
+  "component": {
+   "type": "application",
+   "name": "DEEPCHEM",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/DEEPCHEM@83b357604d34",
+   "purl": "pkg:generic/anticloud/DEEPCHEM@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "jax",
+   "version": "==0.4.30",
+   "purl": "pkg:pypi/jax@0.4.30",
+   "bom-ref": "pypi/jax@==0.4.30"
+  },
+  {
+   "type": "library",
+   "name": "jaxlib",
+   "version": "==0.4.30",
+   "purl": "pkg:pypi/jaxlib@0.4.30",
+   "bom-ref": "pypi/jaxlib@==0.4.30"
+  },
+  {
+   "type": "library",
+   "name": "dm-haiku",
+   "version": "==0.0.13",
+   "purl": "pkg:pypi/dm-haiku@0.0.13",
+   "bom-ref": "pypi/dm-haiku@==0.0.13"
+  },
+  {
+   "type": "library",
+   "name": "torch",
+   "version": "==2.2.1",
+   "purl": "pkg:pypi/torch@2.2.1",
+   "bom-ref": "pypi/torch@==2.2.1"
+  },
+  {
+   "type": "library",
+   "name": "dgl",
+   "version": "<2.2.1",
+   "purl": "pkg:pypi/dgl@2.2.1",
+   "bom-ref": "pypi/dgl@<2.2.1"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "<2",
+   "purl": "pkg:pypi/numpy@2",
+   "bom-ref": "pypi/numpy@<2"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": ">=1.10.1",
+   "purl": "pkg:pypi/scipy@1.10.1",
+   "bom-ref": "pypi/scipy@>=1.10.1"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
